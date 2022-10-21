@@ -1,0 +1,29 @@
+@media screen and (max-width: 760px){
+    
+
+    header{
+        flex-direction: column;
+    }
+
+    #primeiro-titulo{
+
+        text-align: center;
+    }
+    
+
+    nav{
+
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    #textinho{
+        
+        
+        max-width: 350px;
+    }
+
+    button{
+        width: 50%;
+    }
+}

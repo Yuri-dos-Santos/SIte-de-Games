@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Poppins:wght@500&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(5, 12, 16), rgb(73, 75, 76) );
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    border-bottom: 0.2px solid black;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+
+
+li{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li:hover{
+    transition: 0.5s;
+    color: black;
+}
+
+main{
+    padding: 30px;
+    margin-top: 50px;
+    
+    
+}
+
+
+
+
+/* PRODUTO */
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+   
+}
+
+
+.texto{
+    
+    
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.preco{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#precinho{
+    font-family: sans-serif;
+}
+
+.imagem{
+    text-align: center;
+    
+}
+
+img{
+    height: 300px;
+    border-radius: 6px;
+}
+
+p{
+    
+    margin-top: 20px;
+    max-width: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+
+.botao{
+    
+text-align: center;
+
+}
+
+button{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    box-shadow: #2f2325;
+
+    
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: #005000;
+    transform: scale(1.1);
+    transition: all 0.5s;
+      
+}
+
+
+footer{
+    border-top: 0.2px solid black;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: white;
+    
+}
+
+
+
